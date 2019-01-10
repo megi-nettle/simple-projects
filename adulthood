@@ -1,0 +1,11 @@
+var age = prompt('Ile masz lat?');
+var ageAllowed = 18;
+if (age < ageAllowed) {
+  alert('Przepraszamy, ale ten materiał jest dostępny tylko dla osób pełnoletnich.');
+} 
+else if (age == ageAllowed) {
+  alert('18? Gratulacje, witamy w dorosłości! Miłego czytania.');
+  }
+else {
+  alert('Dziękujemy! Miłej lektury');
+}
