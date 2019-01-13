@@ -1,0 +1,21 @@
+function rosieTheFortuneTeller () {
+  var name = prompt('Witam serdecznie! Nazywam się Rosie i jestem profesjonalną wróżką. Jak się nazywasz?');
+  var future = prompt('Tak, przewidziałam, że Ty, ' + name + ', przybędziesz do mnie z zapytaniem. Teraz poproszę Cię o wybranie spośród czterech symboli przez wpisanie jednej z opcji w polu odpowiedzi: żółw, róża, filiżanka, księżyc.');
+  var answer = alert('Hmmm... ' + future + '. Trafny wybór. Zobaczmy, co Cię czeka w przyszłości.');  
+    if (future == 'żółw') {
+      console.log('Oto przepowiednia dla Ciebie: Nie panikuj.');
+    } 
+    else if (future == 'róża') {
+      console.log('Oto przepowiednia dla Ciebie: Znajdziesz pewną rzecz. Może ona być ważna.');
+    }
+    else if (future == 'filiżanka') {
+      console.log('Oto przepowiednia dla Ciebie: Koniec jest bliski, możesz równie dobrze zjeść już deser.');
+    }
+    else if (future == 'księżyc') {
+      console.log('Oto przepowiednia dla Ciebie: Sprawdzaj, zanim skoczysz. Albo weź spadochron.');
+    }
+     else 
+       console.log('Przykro mi, ' + name + ', ale obawiam się, że nie zrozumiałam, co masz na myśli. Czy na pewno dokonałeś wyboru spośród czterech przedmiotów, które wymieniłam?');
+  return;
+}
+rosieTheFortuneTeller ();
